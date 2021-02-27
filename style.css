@@ -38,6 +38,10 @@
 
 /* Regular Styling*/
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background: var(--clr-light);
     color: var(--clr-dark);
@@ -177,6 +181,26 @@ section {
     z-index: 1000;
 }
 
+.nav-open .nav {
+    transform: translateX(0);
+}
+
+.nav-open .nav-toggle {
+    position: fixed;
+}
+
+.nav-open .hamburger {
+    transform: rotate(.625turn);
+}
+
+.nav-open .hamburger::before {
+    transform: rotate(90deg) translateX(-6px);
+}
+
+.nav-open .hamburger::after{
+    opacity: 0;
+}
+
 .hamburger{
     display: block;
     position: relative;
@@ -185,7 +209,7 @@ section {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background: var(--clr-dark);
+    background: var(--clr-accent);
     width: 2em;
     height: 3px;
     border-radius: 1em;
@@ -423,4 +447,18 @@ section {
 .footer__link:hover,
 .social-list__link:hover {
     opacity:  .7;
+}
+
+/* Portfolio Item Individual*/
+
+.portfolio-item-individual {
+    padding: 0 2em 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.portfolio-item-individual p {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
