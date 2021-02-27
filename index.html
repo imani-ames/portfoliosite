@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="logo">
             <img src="resources/images/cover.png" alt="">
         </div>
@@ -38,28 +38,6 @@
         <p class="section__subtitle section__subtitle--intro">Front-End Developer</p>
         <img class="intro__img" src="resources/images/IMG_3027.jpg"
             alt="picture of black woman in her mid twenties smiling">
-    </section>
-
-    <!--About Me-->
-    <section class="about-me">
-        <h2 class="section__title section__title--about ">Who I am</h2>
-        <p class="section__subtitle section__subtitle--about">There is no example of someone reading their scripture and
-            saying, 'I have a prediction about the world that no one knows yet, because this gave me insight. Let's go
-            test that prediction,' and have the prediction be correct.
-
-            I can't tell you how many people say they were turned off from science because of a science teacher that
-            completely sucked out all the inspiration and enthusiasm they had for the course.
-
-            We have bred multiple generations of people who have not experienced knowing where you are the moment a news
-            story broke, with that news story being great and grand and something that elevates society instead of
-            diminishes it.</p>
-        <div class="about-me__body">
-            <p></p>
-            <p></p>
-        </div>
-        <img src="resources/images/IMG_3206_edit.jpg"
-            alt="Imani standing looking at the camera wearing green and black tank top and white background">
-
     </section>
 
     <!--My Services-->
@@ -110,37 +88,88 @@
         <a href="#work" class="btn">My Work</a>
     </section>
 
+    <!--About Me-->
+    <section class="about-me">
+        <h2 class="section__title section__title--about ">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Former Law student turned Front-end Developer</p>
+        <div class="about-me__body">
+            <p>There is no example of someone reading their scripture and
+                saying, 'I have a prediction about the world that no one knows yet, because this gave me insight. Let's
+                go test that prediction,' and have the prediction be correct.
+
+                I can't tell you how many people say they were turned off from science because of a science teacher that
+                completely sucked out all the inspiration and enthusiasm they had for the course.
+            </p>
+            <p>
+                We have bred multiple generations of people who have not experienced knowing where you are the moment a
+                news
+                story broke, with that news story being great and grand and something that elevates society instead of
+                diminishes it.
+            </p>
+        </div>
+        <img src="resources/images/IMG_3206_edit.jpg"
+            alt="Imani standing looking at the camera wearing green and black tank top and white background"
+            class="about-me__img">
+    </section>
+
+    <!--Portfolio Stuff-->
+
     <section class="my-work" id="work">
-        <h2 class="section__title">My Projects</h2>
-        <p class="section__subtitle"></p>
+        <h2 class="section__title section__title--work">My Projects</h2>
+        <p class="section__subtitle section__subtitle--work">Selection of some of my projects. Enjoy!</p>
 
         <div class="portfolio">
             <!--1st Portfolio Item-->
-            <a href="#" class="portfolio-item">
-                <img src="/resources/images/ecommerce site social media image preview.png" alt="">
+            <a href="#" class="portfolio__item">
+                <img src="/resources/images/ecommerce site social media image preview.png" alt=""
+                    class="portfolio__img">
             </a>
 
             <!--2nd Portfolio Item-->
-            <a href="#" class="portfolio-item">
-                <img src="/resources/images/ecommerce site social media image preview.png" alt="">
+            <a href="#" class="portfolio__item">
+                <img src="/resources/images/data vis.jpg" alt="" class="portfolio__img">
             </a>
 
             <!--3rd Portfolio Item-->
-            <a href="#" class="portfolio-item">
-                <img src="/resources/images/pexels-kevin-menajang-982612.jpg" alt="">
+            <a href="#" class="portfolio__item">
+                <img src="/resources/images/pexels-kevin-menajang-982612.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!--4th Portfolio Item-->
+            <a href="#" class="portfolio__item">
+                <img src="/resources/images/IMG_2546.jpg" alt="" class="portfolio__img">
             </a>
         </div>
     </section>
 
     <!--Footer-->
-    <footer>
+    <footer class="footer">
         <a href="mailto:imaniames3@gmail.com" class="footer__link">imaniames3@gmail.com</a>
         <ul class="social-list">
-            <li class="social-list__item"><a class="social-list__link" href="https://twitter.com">a</a></li>
-            <li class="social-list__item"><a class="social-list__link" href="https://linkedin.com">b</a></li>
-            <li class="social-list__item"><a class="social-list__link" href="https://github.com">c</a></li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://linkedin.com">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://codepen.io">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </li>
         </ul>
     </footer>
+
+    <script src="index.js"></script>
 
 </body>
 
