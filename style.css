@@ -387,7 +387,7 @@ section {
 }
 
 .portfolio__item {
-    background: var(--clr-side);
+    background: var(--clr-dark);
     overflow: hidden;
 }
 
